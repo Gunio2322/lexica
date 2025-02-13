@@ -1,0 +1,69 @@
+/* styles.css */
+.editor-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.editor-content {
+  min-height: 200px;
+  outline: none;
+}
+
+.editor-placeholder {
+  color: #999;
+  position: absolute;
+  pointer-events: none;
+}
+
+.toolbar {
+  margin-bottom: 10px;
+}
+
+.toolbar button {
+  margin-right: 5px;
+}
+
+/* Style dla motywu */
+.editor-paragraph {
+  margin: 0 0 100px 0;
+}
+
+.editor-heading-h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.editor-heading-h2 {
+  font-size: 1.5em;
+  margin: 0.75em 0;
+}
+
+.editor-text-bold {
+  font-weight: bold;
+}
+
+.editor-text-italic {
+  font-style: italic;
+}
+
+.editor-text-underline {
+  text-decoration: underline;
+}
+
+.editor-list-ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+.editor-list-ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.editor-listitem {
+  margin-bottom: 5px;
+}
+
+.editor-nested-listitem {
+  list-style-type: none;
+}
